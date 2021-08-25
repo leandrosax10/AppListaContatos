@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ListaContatos</string>
+    <string name="iv_photograph_content_description">iv_photograph</string>
 </resources>
