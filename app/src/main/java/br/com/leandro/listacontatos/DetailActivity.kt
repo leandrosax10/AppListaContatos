@@ -2,11 +2,11 @@ package br.com.leandro.listacontatos
 
 import android.os.Bundle
 import android.widget.TextView
-import androidx.appcompat.widget.Toolbar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+
 
 class DetailActivity: AppCompatActivity(){
-
     private var contact: Contact? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +18,7 @@ class DetailActivity: AppCompatActivity(){
         bindViews()
     }
 
-    private  fun initToolbar(){
+    private  fun initToolbar() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
